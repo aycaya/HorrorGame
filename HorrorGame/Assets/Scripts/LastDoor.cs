@@ -38,6 +38,5 @@ public class LastDoor : MonoBehaviour
         ActionText.text = "Hala anahtarýn yok geri dönmelisin.";
         yield return new WaitForSeconds(5f);
         ActionText.text = "";
-        //Destroy(this.gameObject);
     }
 }

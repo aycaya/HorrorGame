@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class Door3Trigger : MonoBehaviour
 { 
-    //public AudioSource
-    //public GameObject TheZombie;
     public GameObject TheDoor;
-    // Start is called before the first frame update
     public AudioSource doorCreak;
     void OnTriggerExit(Collider other)
     {
@@ -18,7 +15,6 @@ public class Door3Trigger : MonoBehaviour
             Destroy(this.gameObject);
         }
 
-        //DoorBang.GetComponent<AudioSource>().Play();
-        //Destroy(this.gameObject);
+        
     }
 }

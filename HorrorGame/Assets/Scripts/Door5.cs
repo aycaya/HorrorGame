@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Door5 : MonoBehaviour
 {
-    
     public GameObject TheDoor;
     public AudioSource doorCreak;
    

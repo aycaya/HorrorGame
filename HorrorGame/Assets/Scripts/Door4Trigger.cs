@@ -5,7 +5,6 @@ using UnityEngine;
 public class Door4Trigger : MonoBehaviour
 {
 
-   
     public GameObject TheDoor;
     public AudioSource doorCreak;
     
